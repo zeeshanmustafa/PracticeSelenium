@@ -20,7 +20,7 @@ java -jar selenium-server-standalone-3.8.1.jar -role hub
 public class remoteTest {
 
 	public static void main(String[] args) throws MalformedURLException {
-		// TODO Auto-generated method stub
+		//Below code is only of hub to connet to node
 		
 		DesiredCapabilities dc = new DesiredCapabilities();
 		
