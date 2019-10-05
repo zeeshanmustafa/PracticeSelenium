@@ -4,7 +4,7 @@ import java.util.Date;
 public class DateDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Trying to work in visula studio
 
 		Date d = new Date();
 		SimpleDateFormat sdf = new SimpleDateFormat("M/d/y");
