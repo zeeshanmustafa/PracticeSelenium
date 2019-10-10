@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="4">
+<listeners>
+<listener class-name="Test.listenerClass"/>
+</listeners>
+
+  <test thread-count="5" name="Personal Loan">
+  
+  <groups>
+  <run>
+  <include name ="Smoke"/> <!--You Can Also use exclude and include -->
+  </run>
+  
+  </groups>
+    <packages>
+    
+    <package name = "Test"/>
+    
+    </packages>
+  </test>
+  
+  
+</suite> <!-- Suite -->

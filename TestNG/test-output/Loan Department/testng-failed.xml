@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Test.listenerClass"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Personal Loan(failed)">
+    <classes>
+      <class name="Test.DemoTestClass">
+        <methods>
+          <include name="LastExcecution"/>
+          <include name="test3"/>
+          <include name="afSuite"/>
+        </methods>
+      </class> <!-- Test.DemoTestClass -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
